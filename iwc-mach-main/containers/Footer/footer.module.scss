@@ -1,0 +1,120 @@
+.iwcfooter {
+  background: rgb(0, 0, 0);
+  padding: 70px 0;
+}
+
+.row {
+  padding-left: 73px;
+  padding-right: 0px;
+}
+
+.footercol {
+  width: 25%;
+  .slider {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #a28e53;
+    width: 0%;
+    transition: width 0.5s;
+  }
+}
+.footercol ul {
+  list-style: none;
+  padding: 0px;
+}
+.footercol h4 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 28px;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+
+.footercol ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.footercol ul li a {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: inline-block;
+  transition: all 0.3s ease;
+  padding: 5px 0px;
+  color: #babbbd !important;
+  position: relative;
+  vertical-align: top;
+}
+
+.sociallinks {
+  color: transparent;
+  vertical-align: bottom;
+  height: 20px;
+  padding-right: 6px;
+  cursor: pointer;
+  filter: invert(100%) sepia(100%) saturate(26%) hue-rotate(1deg)
+    brightness(600%) contrast(119%);
+}
+
+.newsltrrwrapperarrow {
+  height: 20px;
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(145deg)
+    brightness(118%) contrast(119%);
+  cursor: pointer;
+}
+
+.footercol ul li a:hover {
+  color: #ffffff;
+
+  .slider {
+    width: 100%;
+  }
+}
+.footercol .sociallinks a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footercol .sociallinks a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.newsletter {
+  padding: 42px 0px 60px 73px;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footercol {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footercol {
+    width: 100%;
+  }
+  .newsletter,
+  .row {
+    padding: 49px 30px 30px 29px;
+  }
+}

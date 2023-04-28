@@ -1,0 +1,28 @@
+.iwc_dropdown {
+  background-color: #111111;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  .container {
+    max-width: 100% !important;
+  }
+
+  .WathcCollections {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    flex-basis: 33%;
+    padding-right: 15px;
+  }
+
+  .WathcCollections:nth-child(n + 3) {
+    pointer-events: none;
+  }
+
+  @media (max-width: 899px) {
+    .WathcCollections {
+      flex-basis: 100%;
+    }
+  }
+}

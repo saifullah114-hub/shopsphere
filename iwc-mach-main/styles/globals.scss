@@ -1,0 +1,82 @@
+@import "./layout/layout";
+
+html {
+  @media (max-width: 1366px) {
+    font-size: 87.5%; // 14px
+  }
+  @media (min-width: 1367px) and (max-width: 1600px) {
+    font-size: 100%; // 16px
+  }
+  line-height: 1.2;
+}
+
+body {
+  background-color: #000000;
+  margin: 0px;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+span,
+label {
+  @include font-family-iwc-Gotham();
+}
+
+a,
+p,
+input,
+em,
+li {
+  @include font-family-iwc-HelveticaNeue();
+  text-decoration: none;
+}
+
+p {
+  @include font-size-paragraph();
+}
+
+.iwc-global-mach-Gotham {
+  @include font-family-iwc-Gotham();
+}
+
+.iwc-animate-menus {
+  margin-top: -53px;
+  position: relative;
+  opacity: 0;
+  z-index: 2;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.fade-left {
+  opacity: 0;
+  transform: translate(-50px, 0px);
+  transition-property: all;
+  animation: fadeLeft 400ms ease-in forwards;
+}
+
+@keyframes fadeLeft {
+  to {
+    opacity: 1; /* fade the element in */
+    transform: translate(
+      0px,
+      0px
+    ); /* move the element back to its original position */
+  }
+}
+
+.rotate-90 {
+  transform: rotate(0deg);
+  transition: all 0.6s ease-in-out;
+}
+
+.rotate-180 {
+  transform: rotate(-180deg);
+  transition: all 0.6s ease-in-out;
+}

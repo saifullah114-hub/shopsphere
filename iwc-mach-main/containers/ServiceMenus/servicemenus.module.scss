@@ -1,0 +1,19 @@
+.iwc_service_menus {
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  a {
+    text-underline-offset: 6px;
+    transition: height 0.9s;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: rgb(162, 142, 83);
+    }
+  }
+
+  /*responsive*/
+  @media (max-width: 899px) {
+    display: none;
+  }
+}

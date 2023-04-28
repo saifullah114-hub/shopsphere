@@ -1,0 +1,40 @@
+// Margin top
+.mt0 {margin-top: 0px;}
+.mt5 {margin-top: 5px;}
+.mt10 {margin-top: 10px;}
+.mt15 {margin-top: 15px;}
+.mt20 {margin-top: 20px;}
+.mt25 {margin-top: 25px;}
+.mt30 {margin-top: 30px;}
+.mt35 {margin-top: 35px;}
+.mt40 {margin-top: 40px;}
+.mt100 {margin-top: 100px;}
+
+
+// Margin bottom
+.mb0 {margin-bottom: 0px;}
+.mb5 {margin-bottom: 5px;}
+.mb10 {margin-bottom: 10px;}
+.mb15 {margin-bottom: 15px;}
+.mb20 {margin-bottom: 20px;}
+.mb25 {margin-bottom: 25px;}
+.mb30 {margin-bottom: 30px;}
+.mb35 {margin-bottom: 35px;}
+.mb40 {margin-bottom: 40px;}
+.mb100 {margin-bottom: 100px;}
+
+// Padding
+.ph0 {padding-right: 0; padding-left: 0;}
+.ph40 {padding-left: 40px; padding-right: 40px;}
+.pv80 {padding: 80px 0;}
+
+
+//Margin
+.mh0 {margin-right: 0; margin-left: 0;}
+
+@media (max-width: 767px) {
+  .sm-mt40 {margin-top: 40px;}
+  .sm-mt80 {margin-top: 80px;}
+  .sm-mb40 {margin-bottom: 40px;}
+  .sm-mb80 {margin-bottom: 80px;}
+}

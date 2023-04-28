@@ -1,0 +1,52 @@
+/// IWC Fonts
+
+/*
+    Defines any custom fonts used in the project.
+    TO DO - 
+    
+*/
+
+@font-face {
+  font-family: "IWC Gotham";
+  src: url("./Gotham/D10A74E4D596713F2.woff") format("woff"),
+    /* Modern Browsers */ url("./Gotham/D10A74E4D596713F2.ttf") format("ttf"),
+    /* Safari, Android, iOS */ url("./Gotham/D10A74E4D596713F2.svg")
+      format("svg"),
+    /* Legacy iOS */ url("./Gotham/D10A74E4D596713F2.eot") format("eot"); /* IE */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IWC HelveticaNeue";
+  src: url("./HelveticaNeue/50ac1699-f3d2-47b6-878f-67a368a17c41.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("./HelveticaNeue/beb88be6-2a60-46fe-914f-6892b3ae46ce.ttf")
+      format("ttf"),
+    /* Safari, Android, iOS */
+      url("./HelveticaNeue/e5567978-93ef-4de1-804d-1f0e3654a014.svg")
+      format("svg"),
+    /* Legacy iOS */
+      url("./HelveticaNeue/1b950d2a-907a-4888-8056-0d44e8e86338.eot")
+      format("eot"); /* IE */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin font-family-iwc-Gotham() {
+  font-family: "IWC Gotham", Arial, sans-serif;
+}
+
+@mixin font-family-iwc-HelveticaNeue() {
+  font-family: "IWC HelveticaNeue", Arial, sans-serif;
+}
+
+@mixin font-size-paragraph() {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}

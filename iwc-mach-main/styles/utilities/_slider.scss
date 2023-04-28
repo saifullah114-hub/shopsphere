@@ -1,0 +1,19 @@
+.slick-slider {
+  width: 100%;
+  .slick-track {
+    display: flex;
+    .slick-slide {
+      height: unset;
+      margin-right: 30px;
+      &:last-child {margin-right: 0;}
+      @media (max-width: 767px) {
+        margin: 0;
+      }
+      > div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      } 
+    }
+  }
+}

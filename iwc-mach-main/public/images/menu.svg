@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="13px" viewBox="0 0 20 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Burger</title>
+    <g id="Style-Guide-MOB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-guide-Mobile" transform="translate(-347.000000, -219.000000)" fill="#A28E53">
+            <g id="04_ICONS" transform="translate(137.000000, 91.000000)">
+                <g id="Icons" transform="translate(0.000000, 123.000000)">
+                    <g id="Burger" transform="translate(210.000000, 5.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="20" height="1"></rect>
+                        <rect id="Rectangle" x="0" y="6" width="20" height="1"></rect>
+                        <rect id="Rectangle" x="0" y="12" width="20" height="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
